@@ -2,7 +2,7 @@
 #include<conio.h>
 int main(int arg1, char *arg2[])
 {	int num_1,num_2;
-	printf("Enter two numers x & y :");
+	printf("Enter two numers num_1 & num_2 :");
 	scanf("%d %d", &num_1, &num_2);
 	printf("Before swaping num_1 = %d and num_2 = %d  \n", num_1, num_2);
 	swap(&num_1, &num_2);
